@@ -47,6 +47,6 @@ if __name__ == "__main__":
         # app.processEvents()
 
     form = Form()
-    # form.show()
+    form.show()
     splash.finish(form)
     app.exec_()
