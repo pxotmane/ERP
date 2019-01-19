@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="login">
+    <file>login-user-icon.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

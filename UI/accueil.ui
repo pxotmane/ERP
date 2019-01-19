@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mWin</class>
+ <widget class="QMainWindow" name="mWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1034</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>IJADA ERP</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>logo.png</normaloff>logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1034</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionClients"/>
+    <addaction name="actionFournisseurs"/>
+    <addaction name="actionTransporteurs"/>
+    <addaction name="separator"/>
+    <addaction name="actionAricles"/>
+    <addaction name="actionFamilles"/>
+    <addaction name="actionUnit_s"/>
+    <addaction name="separator"/>
+    <addaction name="actionNature_op_ration_caisse"/>
+    <addaction name="separator"/>
+    <addaction name="actionCodification"/>
+    <addaction name="separator"/>
+    <addaction name="actionSauvgarder_et_quitter"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuVentes">
+    <property name="title">
+     <string>Ventes</string>
+    </property>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuVentes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionClients">
+   <property name="text">
+    <string>Clients</string>
+   </property>
+  </action>
+  <action name="actionFournisseurs">
+   <property name="text">
+    <string>Fournisseurs</string>
+   </property>
+  </action>
+  <action name="actionTransporteurs">
+   <property name="text">
+    <string>Transporteurs</string>
+   </property>
+  </action>
+  <action name="actionAricles">
+   <property name="text">
+    <string>Aricles</string>
+   </property>
+  </action>
+  <action name="actionFamilles">
+   <property name="text">
+    <string>Familles</string>
+   </property>
+  </action>
+  <action name="actionUnit_s">
+   <property name="text">
+    <string>Unités</string>
+   </property>
+  </action>
+  <action name="actionNature_op_ration_caisse">
+   <property name="text">
+    <string>Nature opération caisse </string>
+   </property>
+  </action>
+  <action name="actionCodification">
+   <property name="text">
+    <string>Codification</string>
+   </property>
+  </action>
+  <action name="actionSauvgarder_et_quitter">
+   <property name="text">
+    <string>Sauvgarder et quitter</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
